@@ -1,0 +1,277 @@
+html {
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lite-topbar {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+.lite-topbar {
+  position: fixed;
+  height: 5.25rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #fafafa;
+  color: #262626;
+  border: 0;
+  font-size: 100%;
+  z-index: 999;
+}
+.lite-topbar .nav-top {
+  display: flex;
+  align-items: center;
+  height: 2.75rem;
+}
+.lite-topbar .nav-top .icon-caigoutonggerenbangaobaozhenzhucedenglu17 {
+  font-size: 1.625rem;
+  margin: 0 0.75rem;
+}
+.lite-topbar .nav-top .search {
+  overflow: hidden;
+  position: relative;
+  flex: 1;
+  border: none;
+  background: #e3e4e6;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 0.8125rem;
+  border-radius: 1rem;
+}
+.lite-topbar .nav-top .search span {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
+.lite-topbar .nav-top .search a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  display: block;
+  text-decoration: none;
+  color: #bdbdbd;
+}
+.lite-topbar .nav-top .search a:active {
+  color: #bdbdbd;
+}
+.lite-topbar .nav-top i {
+  font-size: 1.775rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+}
+.lite-topbar .nav-top i:last-child {
+  font-size: 1.25rem;
+}
+.lite-topbar .nav-main {
+  height: 2.5rem;
+  background-color: #fafafa;
+  display: flex;
+  border-bottom: 1px solid #a5adb5;
+}
+.lite-topbar .nav-main .content,
+.lite-topbar .nav-main .box {
+  height: 2.5rem;
+}
+.lite-topbar .nav-main .content {
+  width: 90%;
+}
+.lite-topbar .nav-main .content ul {
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.lite-topbar .nav-main .content ul li {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  line-height: 2.5rem;
+  margin: 0 0.75rem;
+  font-size: 1rem;
+  color: #a5adb5;
+}
+.lite-topbar .nav-main .content ul .focus {
+  color: #000;
+}
+.lite-topbar .nav-main .content ul .focus::after {
+  position: absolute;
+  content: '';
+  display: block;
+  background-color: black;
+  bottom: 6px;
+  width: 1rem;
+  height: 1px;
+  left: 50%;
+  margin-left: -0.5rem;
+}
+.lite-topbar .nav-main .box {
+  cursor: pointer;
+  flex: 10%;
+  height: 2.5rem;
+  background-color: #fafafa;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #a5adb5;
+}
+@media screen and (max-width: 769px) {
+  .img-box {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 769px) {
+  .main-content {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+.main-content {
+  padding-top: 5.25rem;
+}
+.main-content .item .card {
+  position: relative;
+  display: flex;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  height: 2.5rem;
+  background-color: #fff;
+  padding-top: 0.9375rem;
+}
+.main-content .item .card .avatar {
+  width: 2rem;
+  height: 2.5rem;
+}
+.main-content .item .card .avatar img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.main-content .item .card .text-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.15rem 0 0.15rem 0.5rem;
+}
+.main-content .item .card .text-box h4 span {
+  color: yellow;
+}
+.main-content .item .card .text-box h5 {
+  font-size: 0.6875rem;
+  color: #939393;
+}
+.main-content .item .card button {
+  cursor: pointer;
+  color: #87909a;
+  border: 1px solid #87909a;
+  background-color: #fff;
+  width: 4.6125rem;
+  height: 1.55rem;
+  outline: none;
+}
+.main-content .item .card button:hover {
+  background-color: #fff;
+}
+.main-content .item .weibo-main {
+  background-color: #fff;
+}
+.main-content .item .weibo-main .card-wrap {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og {
+  padding: 0.75rem 0 0 0.25rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og p {
+  line-height: 1.5;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og a {
+  text-decoration: none;
+  color: #3c6e9e;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box {
+  position: relative;
+  width: 20rem;
+  height: 12.75rem;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box img {
+  width: 100%;
+  height: 100%;
+  vertical-align: baseline;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box .big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3.375rem;
+  height: 3.375rem;
+  margin: -1.6875rem 0 0 -1.6875rem;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box .big .iconfont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.375rem;
+  color: #fff;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box .m-box {
+  position: absolute;
+  width: 20rem;
+  margin: 0 0.3125rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  bottom: 0.3125rem;
+  left: 0;
+  color: #fff;
+}
+.main-content .item .weibo-main .card-wrap .weibo-og .img-box .m-box .time {
+  position: absolute;
+  right: 0.7rem;
+  top: 0;
+}
+.main-content .item .weibo-main .card-wrap .footer {
+  border-top-width: 0;
+  height: 1.1rem;
+  padding: 1rem 0.375rem 1rem 0;
+  margin: 0 0.75rem;
+}
+.main-content .item .weibo-main .card-wrap .footer .box {
+  display: flex;
+  float: left;
+  align-items: center;
+}
+.main-content .item .weibo-main .card-wrap .footer .box:nth-child(2),
+.main-content .item .weibo-main .card-wrap .footer .box:nth-child(3) {
+  margin-left: 1.6875rem;
+}
+.main-content .item .weibo-main .card-wrap .footer .box i {
+  color: rgba(40, 47, 60, 0.8);
+  font-size: 1.125rem;
+}
+.main-content .item .weibo-main .card-wrap .footer .box span {
+  font-size: 0.8125rem;
+  color: rgba(40, 47, 60, 0.8);
+}
+.main-content .item .weibo-main .card-wrap .footer aside {
+  font-size: 1rem;
+  vertical-align: middle;
+  float: right;
+}
