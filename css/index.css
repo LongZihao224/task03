@@ -167,7 +167,7 @@ html {
   margin: 0.15rem 0 0.15rem 0.5rem;
 }
 .main-content .item .card .text-box h4 span {
-  color: yellow;
+  color: red;
 }
 .main-content .item .card .text-box h5 {
   font-size: 0.6875rem;
